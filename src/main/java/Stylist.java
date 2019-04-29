@@ -13,6 +13,7 @@ public class Stylist {
     this.name = name;
     this.rate = rate;
   }
+  
 
   public int getId() {
     return id;
