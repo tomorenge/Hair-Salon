@@ -1,4 +1,5 @@
 # _Hair Salon Project_
+An app that allows the owner to be able to add a list of the stylists, and for each stylist, add clients who see that stylist. The stylists work independently, so each client only belongs to a single stylist.
 
 ##### _19/04/2019_
 
