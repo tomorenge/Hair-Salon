@@ -9914,12 +9914,17 @@ background-size: cover;
 width: 1530px;
 background-size: cover;
 }
-
 .form{
   width: 300px;
   margin-left: 400px;
   font-size: 30px;
 }
+.fff1{
+  background-image:url("https://www.northtec.ac.nz/getmedia/658596cf-7633-4eb2-9e15-b3ffdee12402/Hairdressing-021.jpg?width=1200&height=628&ext=.jpg");
+height: 700px;
+width: 1530px;
+background-size: cover; 
+} 
 .one{
   font-size: 30px;
 }
