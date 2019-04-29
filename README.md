@@ -12,7 +12,7 @@ This project will demonstrate proficiency in Java, Gradle, Spark, JUnit testing,
 
 #### Technologies Used
 
-_This website will use HTML, CSS, Spark and Java_
+_This website will use HTML, CSS, Spark and Java and velocityEngine
 
 #### Installation
 
