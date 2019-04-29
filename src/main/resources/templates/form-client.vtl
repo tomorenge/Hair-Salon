@@ -1,0 +1,15 @@
+<h2>Add a client:</h2>
+<form action='/new/client' method='post'>
+  <div class="form-group">
+    <input type="hidden" name="stylistid" id="stylist" value=$stylist.getId()>
+  </div>
+  <div class="form-group">
+    <input name="name" id="name" placeholder="Name:">
+  </div>
+  <div class="form-group">
+    <input name="appointment" id="appointment" placeholder="Appointment:">
+  </div>
+  <button type="submit" class="btn btn-danger">Add</button>
+</form>
+
+<a href="/">Return Home</a>

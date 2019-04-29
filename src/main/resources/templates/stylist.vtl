@@ -1,0 +1,19 @@
+<h1>$stylist.getName() Clients</h1>
+
+<p>Appointments:</p>
+#foreach ($client in $clients)
+  <h4>$client.getName()</h4>
+  <p>At: $client.getAppointment()</p>
+#end
+<a href="/form/$stylist.getId()">Add a client</a>
+
+<p>Change $stylist.getName()'s name:</p>
+<form action='/new/stylist-name' method='post'>
+  <div class="form-group">
+    <input type="hidden" name="stylistid" id="stylist" value=$stylist.getId()>
+  </div>
+    <input name="name" id="name" placeholder="New Name:">
+  <button type="submit" class="btn btn-sm">Update</button>
+</form>
+<p><a href="/stylist/$stylist.getId()/delete">Delete $stylist.getName()</a></p>
+<p><a href="/">Return Home</a></p>

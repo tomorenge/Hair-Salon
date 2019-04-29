@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Hair salon </h2>
+    <p>Click on a stylist to see its Clients:</p>
+
+    <div class="form-inline">
+      #if($stylists)
+      <ul>
+      
+        #foreach($stylist in $stylists)
+        <li><a href="/stylists/$stylist.getId() ">$stylist.getName()</a></li>
+        <form action="/stylists/$stylist.getId()/delete" method="post">
+          <button type="submit" class="btn btn-default">Delete Stylist</button>
+        </form>
+        #end
+      </ul>
+      #end
+    </div>
+    <a type="button" href="/" class="btn btn-warning">Add more stylist</a>
+  </div>

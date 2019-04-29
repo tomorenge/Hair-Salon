@@ -1,0 +1,10 @@
+
+<div class=" salon">
+<h1>Your New Look Hair Salon</h1>
+#foreach ($stylist in $stylists)
+  <h2><a href=/$stylist.getId()>$stylist.getName()</a></h2>
+  <p>$$stylist.getRate()/hour</p>
+#end
+
+<a href="/stylist-form">Add a stylist</a>
+</div>
