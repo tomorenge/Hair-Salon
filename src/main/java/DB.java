@@ -16,7 +16,7 @@ public class DB {
 
         try {
             if (System.getenv("DATABASE_URL") == null) {
-                dbUri = new URI("postgres://moringa:options@localhost:5432/hair_salon");
+                dbUri = new URI("postgres://tom:tom@localhost:5432/hairsalon");
             } else {
                 dbUri = new URI(System.getenv("DATABASE_URL"));
             }
@@ -30,3 +30,4 @@ public class DB {
 
         }
     }
+}
