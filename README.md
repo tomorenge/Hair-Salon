@@ -21,5 +21,5 @@ Install the project files by following the link below and cloning this repositor
 https://github.com/tomorenge/HairSalon.git
 
 #### License
-
+Licenced under the [MIT Licence](https://github.com/tomorenge/Hair-Salon/new/master/LICENSE)
 
