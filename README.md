@@ -1,24 +1,24 @@
 # _Hair Salon Project_
 
-##### _5/6/2016_
+##### _19/04/2019_
 
-#### By _**Scott Holland, Jr.**_
+#### By Tom Orenge
 
-Hair Salon project for Epicodus Java course, week 3 Code Review (Database Basics).
+Hair Salon project for Moringa Java course, week 3 Code Review (Database Basics).
 
-This project will demonstrate proficiency in Java, Gradle, Spark, JUnit testing, Velocity templates, Integration testing with Fluentlenium, postgres and SQL databases.
+This project will demonstrate proficiency in Java, Gradle, Spark, JUnit testing, Velocity templates, postgres and SQL databases.
 
 
 #### Technologies Used
 
-_This website will use HTML, CSS, and Java_
+_This website will use HTML, CSS, Spark and Java_
 
 #### Installation
 
 Install the project files by following the link below and cloning this repository:
 
-https://github.com/theAppanaut/HairSalon.git
+https://github.com/tomorenge/HairSalon.git
 
 #### License
 
-MIT License. Copyright (c) 2016 **_Scott Holland, Jr._**
+
